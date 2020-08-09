@@ -9,4 +9,10 @@
 */
 .chat-stream {
   flex: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  border: solid 1px #eee;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
