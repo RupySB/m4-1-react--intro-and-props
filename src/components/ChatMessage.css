@@ -12,8 +12,23 @@
 .characterPics {
   height: 25px;
   width: 25px;
-  display: absolute;
   flex-direction: column;
   border-radius: 50%;
   float: left;
+  margin: 5px;
+}
+
+.messageBody {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: lightgrey;
+  padding: 5px;
+  margin-top: 0px;
+}
+
+.userName {
+  font-size: 15px;
+  border: 0px;
+  padding: 0px;
+  margin-left: 27px;
 }

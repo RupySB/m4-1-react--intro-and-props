@@ -12,7 +12,10 @@ function App(props) {
     <div className="wrapper">
       <Header />
 
-      <ChatStream messages={props.conversation.messages} />
+      <ChatStream
+        messages={props.conversation.messages}
+        currentUser={props.currentUser}
+      />
 
       <Footer />
     </div>
